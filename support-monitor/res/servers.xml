@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<globalcheck>
+	
+	<servers>
+		<server>
+			<host>cursose.uniandes.edu.co</host>
+			<poolPorts>
+				<port>
+					<checker>
+						<type>HTTP</type>
+					</checker>
+					<name>Jboss</name>
+					<number>8080</number>
+					<path>/cursose/</path>
+					<notification>
+						<subject>Falla verificando el servidor web Jboss</subject>
+						<message>No se recupera el servicio</message>
+						<recipients>oi.estrada@uniandes.edu.co</recipients>
+						<recipients>oi.estrada@uniandes.edu.co</recipients>
+					</notification>
+				</port>
+			</poolPorts>
+		</server>
+		<server>
+			<host>alizee.uniandes.edu.co</host>
+			<poolPorts>
+				<port>
+					<checker>
+						<type>HTTP</type>
+					</checker>
+					<name>Alizee</name>
+					<number>80</number>
+					<path>/</path>
+					<notification>
+						<subject>Falla verificando el servidor web Alizee</subject>
+						<message>No se recupera el servicio</message>
+						<recipients>cr.calle@uniandes.edu.co</recipients>
+						<recipients>oi.estrada@uniandes.edu.co</recipients>
+					</notification>
+				</port>
+			</poolPorts>
+		</server>
+	</servers>
+</globalcheck>

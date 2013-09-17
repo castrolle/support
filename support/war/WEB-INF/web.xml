@@ -9,7 +9,7 @@
 
 <servlet>
   <servlet-name>emailService</servlet-name>
-  <servlet-class>com.dev.puppet.server.EmailServiceImpl</servlet-class>
+  <servlet-class>com.dev.puppet.server.SupportMonitorImpl</servlet-class>
 </servlet>
 
 <servlet-mapping>

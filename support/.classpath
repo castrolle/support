@@ -8,5 +8,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gwtext.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/support-monitor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/support-utlis"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
