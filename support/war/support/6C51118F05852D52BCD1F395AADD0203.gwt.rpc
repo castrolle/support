@@ -1,0 +1,17 @@
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.support.client.GreetingService, false, false, false, false, _, 831491879
+com.support.server.vo.ApacheVO, false, false, true, true, com.support.server.vo.ApacheVO/1078757965, 1078757965
+com.support.server.vo.JavaVO, false, false, true, true, com.support.server.vo.JavaVO/2086939839, 2086939839
+com.support.server.vo.MySqlVO, false, false, true, true, com.support.server.vo.MySqlVO/2965693750, 2965693750
+com.support.server.vo.PhpVO, false, false, true, true, com.support.server.vo.PhpVO/2819500854, 2819500854
+com.support.server.vo.ServerVO, false, false, true, true, com.support.server.vo.ServerVO/1014154249, 1014154249
+com.support.server.vo.UserVO, false, false, true, true, com.support.server.vo.UserVO/3182979343, 3182979343
+java.lang.Boolean, false, false, true, true, java.lang.Boolean/476441737, 476441737
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.IllegalArgumentException, true, true, false, false, java.lang.IllegalArgumentException/1755012560, 1755012560
+java.lang.NumberFormatException, true, true, false, false, java.lang.NumberFormatException/3305228476, 3305228476
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131

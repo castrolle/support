@@ -1,0 +1,3 @@
+# Module support
+# RPC service class, partial path of RPC policy file
+com.support.client.GreetingService, 6C51118F05852D52BCD1F395AADD0203.gwt.rpc
