@@ -27,16 +27,19 @@ public class MailSender {
 			try {
 				Message msg = new MimeMessage(session);
 				msg.setFrom(new InternetAddress("oiestradag@gmail.com",
-						"Example.com Admin"));
+						text));
+		
+				Log.error("------------------------------");
+				
 				msg.setRecipients(Message.RecipientType.TO,
 						getRecipients(recipientList));
 
-				// msg.addRecipient(Message.RecipientType.TO, new
-				// InternetAddress(
-				// "oi.estrada@uniandes.edu.co", "Mr. User"));
-				msg.setSubject("Your Example.com account has been activated");
+		
+				msg.setSubject(subject);
 				msg.setText(msgBody);
 				Transport.send(msg);
+				
+				Log.error("**********************************"+recipientList.get(0));
 
 			} catch (AddressException e) {
 				Log.error(e.toString());

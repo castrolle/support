@@ -33,7 +33,7 @@ public class ServersCheck {
 					Log.error("Servicio :" + p.getName() + " fallido");
 					String msg = p.getNotification().getMessage() + "\n"
 							+ s.toString() + p.toString();
-					MailSender.send(msg, "", p.getNotification()
+					MailSender.send(msg, "Administrador", p.getNotification()
 							.getRecipients());
 				} else {
 					Log.info("Servicio :" + p.getName() + " exitoso");

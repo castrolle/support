@@ -1,2 +1,0 @@
-serviceClass: com.dev.puppet.client.GreetingService
-path: 017C3CBD24F4DD8ED7AD9128218A14B4.gwt.rpc

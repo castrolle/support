@@ -9,7 +9,7 @@
 
 <servlet>
   <servlet-name>emailService</servlet-name>
-  <servlet-class>com.dev.puppet.server.SupportMonitorImpl</servlet-class>
+  <servlet-class>com.support.server.SupportMonitorImpl</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -18,16 +18,15 @@
 </servlet-mapping>
 
 
-
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.dev.puppet.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>com.support.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/puppet_vagrant/greet</url-pattern>
+    <url-pattern>/support/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->

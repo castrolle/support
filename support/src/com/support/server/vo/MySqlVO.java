@@ -59,7 +59,7 @@ public class MySqlVO extends ServiceState implements IsSerializable {
 				builder.append("	   user        => 'root',                                                                    \n");
 				builder.append("		path    => ['/bin', '/usr/bin'],                                                         \n");
 				builder.append("		cwd         => '/tmp',                                                                   \n");
-				builder.append("		command => 'mysql -uroot -proot -e 'create database IF NOT EXISTS \""+databaseName+"\";'',   \n");
+				builder.append("		command => 'mysql -uroot -proot -e \"create database IF NOT EXISTS "+databaseName+"\";',   \n");
 				builder.append("		require => Exec['set-mysql-password'],                                                   \n");
 				builder.append("	}                                                                                            \n");
 			}

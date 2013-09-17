@@ -3,6 +3,8 @@
 	<name>support</name>
 	<comment></comment>
 	<projects>
+		<project>support-monitor</project>
+		<project>support-utlis</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -47,4 +49,16 @@
 		<nature>com.google.gwt.eclipse.core.gwtNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src-monitor</name>
+			<type>2</type>
+			<location>C:/Users/USUARIO/git/support/support-monitor/src</location>
+		</link>
+		<link>
+			<name>src-utils</name>
+			<type>2</type>
+			<location>C:/Users/USUARIO/git/support/support-utlis/src</location>
+		</link>
+	</linkedResources>
 </projectDescription>
