@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cronentries>
+
+  <cron>
+    <url>/cronexample</url>
+    <description>Send an email to a user</description>
+    <schedule>every 30 minutes</schedule>
+
+<!-- Here's an example using timezone 
+
+    <schedule>every day 01:00</schedule>
+    <timezone>America/New_York</timezone> -->
+  </cron>
+  
+</cronentries>

@@ -1,0 +1,3 @@
+# Module puppet_vagrant
+# RPC service class, partial path of RPC policy file
+com.dev.puppet.client.GreetingService, 017C3CBD24F4DD8ED7AD9128218A14B4.gwt.rpc

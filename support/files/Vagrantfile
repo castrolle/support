@@ -1,0 +1,15 @@
+Vagrant::Config.run do |config|
+ 
+  config.vm.box = "ubuntu_64"
+  config.vm.box_url = "D:\\vagrant\\boxes\\lucid64.box"  
+  config.vm.network :bridged
+  
+  #ejecuta el script test.sh que debe estar ubicado junto a este archivo "Vagrantfile"
+  config.vm.provision :shell, :path => "test.sh"
+  
+  config.vm.provision :puppet do |puppet|
+    puppet.manifests_path = "puppet/manifests"
+    puppet.options = ['--verbose']
+  end
+ 
+end
